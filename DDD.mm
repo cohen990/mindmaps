@@ -1,0 +1,226 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#000000" CREATED="1508428868153" ID="ID_1986830954" MODIFIED="1508429585829" TEXT="DDD">
+<font NAME="SansSerif" SIZE="20"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1508429003838" ID="ID_1890221430" MODIFIED="1508431154497" POSITION="right" TEXT="Building Blocks">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508429014350" ID="ID_657560118" MODIFIED="1508431153758" TEXT="Entity">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508429024936" ID="ID_1823329512" MODIFIED="1508431113449" TEXT="mutable">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508429033383" ID="ID_828843704" MODIFIED="1508431108863" TEXT="defined by identity ">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508429258964" ID="ID_961245705" MODIFIED="1508429585814" TEXT="I am Dan">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node COLOR="#111111" CREATED="1508433401144" ID="ID_1242036862" MODIFIED="1508433423798" TEXT="think SQL keys">
+<icon BUILTIN="help"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508429053141" ID="ID_778458217" MODIFIED="1508431101143" TEXT="not defined by attributes">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508429263770" ID="ID_173439470" MODIFIED="1508429585815" TEXT="I weigh 90kg">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429070587" ID="ID_413869466" MODIFIED="1508431153936" TEXT="Value Object">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508429075184" ID="ID_959891964" MODIFIED="1508431083861" TEXT="immutable">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508429078220" ID="ID_153307095" MODIFIED="1508431128564" TEXT="defined by attributes">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508429271374" ID="ID_1663115408" MODIFIED="1508429585818" TEXT="My value is 5">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429085917" ID="ID_1687441559" MODIFIED="1508431154313" TEXT="Domain Event">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508429288245" ID="ID_581250767" MODIFIED="1508429585819" TEXT="domain object defining an event">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508429341877" ID="ID_648470180" MODIFIED="1508429585820" TEXT="of interest to domain experts">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508429301657" ID="ID_1146501035" MODIFIED="1508429585820" TEXT="captured">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508429321542" ID="ID_506612285" MODIFIED="1508429585828" TEXT="trigger change in application state">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node COLOR="#990000" CREATED="1508429332823" ID="ID_910385139" MODIFIED="1508429585829" TEXT="recorded in audit log">
+<edge STYLE="bezier"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429612963" ID="ID_991950571" MODIFIED="1508431154132" TEXT="Aggregate">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508429616002" ID="ID_428890233" MODIFIED="1508431174410" TEXT="cluster of domain objects">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508429624371" ID="ID_1443359398" MODIFIED="1508429635250" TEXT="not just a collection">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508429635251" ID="ID_1746053951" MODIFIED="1508429645527" TEXT="shopping cart + products"/>
+</node>
+<node COLOR="#990000" CREATED="1508431048864" ID="ID_392938225" MODIFIED="1508432192645" TEXT="aggregate root">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#990000" CREATED="1508432228731" ID="ID_169782106" MODIFIED="1508432239629" TEXT="basic elements of transfer of data storage">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#990000" CREATED="1508431179794" ID="ID_729833581" MODIFIED="1508431183941" TEXT="treated as a single unit">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429655364" ID="ID_304317853" MODIFIED="1508433571387" TEXT="Service">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508432334288" ID="ID_82019449" MODIFIED="1508433565580" TEXT="home for operations">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508432506480" ID="ID_1485570306" MODIFIED="1508433565581" TEXT="that have no home">
+<node COLOR="#111111" CREATED="1508432518372" ID="ID_553724137" MODIFIED="1508433565581" TEXT="in an entity"/>
+<node COLOR="#111111" CREATED="1508432521535" ID="ID_790338101" MODIFIED="1508433565581" TEXT="in a value object"/>
+</node>
+<node COLOR="#111111" CREATED="1508432561256" ID="ID_1987080673" MODIFIED="1508433565581" TEXT="that are stateless"/>
+</node>
+<node COLOR="#990000" CREATED="1508432492300" FOLDED="true" ID="ID_1732200876" MODIFIED="1508433565581" TEXT="exposed as an interface">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508432496198" ID="ID_263358825" MODIFIED="1508432505475" TEXT="to expose a cohesive contract"/>
+<node COLOR="#111111" CREATED="1508432534563" ID="ID_1276461006" MODIFIED="1508432549666" TEXT="defined in terms of other elements on the domain model"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429658315" ID="ID_1513631570" MODIFIED="1508429659752" TEXT="Repository">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508433173846" ID="ID_939638938" MODIFIED="1508433177482" TEXT="mediators">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508433178001" ID="ID_575124817" MODIFIED="1508433180967" TEXT="domain"/>
+<node COLOR="#111111" CREATED="1508433181390" ID="ID_191901579" MODIFIED="1508433183241" TEXT="data mapping"/>
+</node>
+<node COLOR="#990000" CREATED="1508433191384" ID="ID_473478416" MODIFIED="1508433194549" TEXT="translation">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508433195144" ID="ID_1719498161" MODIFIED="1508433201684" TEXT="technical terminology"/>
+<node COLOR="#111111" CREATED="1508433203452" ID="ID_1277399464" MODIFIED="1508433207166" TEXT="business terminology"/>
+</node>
+<node COLOR="#990000" CREATED="1508433246425" ID="ID_1329681456" MODIFIED="1508433248644" TEXT="NOT a DAL">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508433432729" ID="ID_423376960" MODIFIED="1508433445002" TEXT="DAL does not speak Ubiquitous Language"/>
+<node COLOR="#111111" CREATED="1508433451662" ID="ID_1344949240" MODIFIED="1508433455195" TEXT="DAL is lower level"/>
+</node>
+<node COLOR="#990000" CREATED="1508433251427" ID="ID_1294773504" MODIFIED="1508433264143" TEXT="a collection of aggregate roots">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
+<node COLOR="#990000" CREATED="1508433268399" ID="ID_515991769" MODIFIED="1508433279211" TEXT="mechanism to manage entities">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508429662385" ID="ID_1826869340" MODIFIED="1508431154687" TEXT="Factory">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508431018091" ID="ID_1455585813" MODIFIED="1508431226343" TEXT="creation of domain objects">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508431029503" ID="ID_1149706111" MODIFIED="1508431031612" TEXT="aggregate root"/>
+</node>
+<node COLOR="#990000" CREATED="1508431236175" ID="ID_1938960636" MODIFIED="1508431238057" TEXT="inputs">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508431238058" ID="ID_1567854510" MODIFIED="1508431241880" TEXT="UI"/>
+<node COLOR="#111111" CREATED="1508431244669" ID="ID_647364774" MODIFIED="1508431249944" TEXT="query results"/>
+<node COLOR="#111111" CREATED="1508431250562" ID="ID_263405526" MODIFIED="1508432181303" TEXT="domain meaningful requests">
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1508429714595" ID="ID_1886279185" MODIFIED="1508433490505" POSITION="right" TEXT="Ubiquitous Language">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508433034684" ID="ID_170760116" MODIFIED="1508433082963" TEXT="Shared Language">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508433041749" ID="ID_1292949328" MODIFIED="1508433046730" TEXT="developers">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508433047221" ID="ID_1552876187" MODIFIED="1508433052018" TEXT="domain experts">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508433059791" ID="ID_1907739028" MODIFIED="1508433095107" TEXT="Business">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508433100662" ID="ID_974209426" MODIFIED="1508433559510" TEXT="integrates developers">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508433507606" ID="ID_274268750" MODIFIED="1508433511391" TEXT="forms basis for language">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508433494279" ID="ID_1025556060" MODIFIED="1508433497565" TEXT="Rigorous">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508433663462" ID="ID_32765756" MODIFIED="1508433667251" TEXT="test it by using it">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508433668142" ID="ID_444274106" MODIFIED="1508433670951" TEXT="with domain experts"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1508429757375" ID="ID_619492545" MODIFIED="1508429767342" POSITION="right" TEXT="Bounded Contexts">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508433799256" ID="ID_1534213230" MODIFIED="1508433812127" TEXT="Divide Large Models">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1508433812769" ID="ID_1979997094" MODIFIED="1508433822390" TEXT="be explicit about interrelationships">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508433887079" ID="ID_301711050" MODIFIED="1508433894104" TEXT="allow models to remain unified">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508433959226" ID="ID_318010257" MODIFIED="1508433962245" TEXT="avoid polysemes">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508434020033" ID="ID_737787846" MODIFIED="1508434022767" TEXT="Context Map">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1508432845468" ID="ID_1944251590" MODIFIED="1508432847376" POSITION="left" TEXT="Domain Model">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1508432847968" ID="ID_1819037765" MODIFIED="1508433729505" STYLE="fork" TEXT="Anaemic Domain Model">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<icon BUILTIN="button_cancel"/>
+<node COLOR="#990000" CREATED="1508432860138" ID="ID_1011484224" MODIFIED="1508432976458" TEXT="looks like the real thing">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508432872134" ID="ID_137536001" MODIFIED="1508432976458" TEXT="hardly any behaviour">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1508432917439" ID="ID_1236545961" MODIFIED="1508432976459" TEXT="behaviour pushed to services">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1508432924289" ID="ID_1644930890" MODIFIED="1508432976459" TEXT="sit on top of domain model"/>
+<node COLOR="#111111" CREATED="1508432929214" ID="ID_696247263" MODIFIED="1508432976460" TEXT="use domain model for data"/>
+<node COLOR="#111111" CREATED="1508432938377" ID="ID_849894014" MODIFIED="1508432976460" TEXT="compute results"/>
+<node COLOR="#111111" CREATED="1508432941963" ID="ID_305207464" MODIFIED="1508432976460" TEXT="populate domain model with results"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1508433865296" ID="ID_1460692103" MODIFIED="1508433872612" TEXT="Unified">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+</map>
