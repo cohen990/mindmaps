@@ -721,5 +721,9 @@
 </node>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1509369794619" ID="ID_194481758" MODIFIED="1509369802113" POSITION="left" TEXT="platform entities">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
 </node>
 </map>
