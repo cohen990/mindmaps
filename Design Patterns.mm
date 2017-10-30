@@ -3,7 +3,7 @@
 <node COLOR="#000000" CREATED="1508838731882" ID="ID_1023150252" MODIFIED="1508838752676" TEXT="Design Patterns">
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
-<node COLOR="#0033ff" CREATED="1508838753348" FOLDED="true" ID="ID_709180198" MODIFIED="1508839122913" POSITION="right" TEXT="Observer Pattern">
+<node COLOR="#0033ff" CREATED="1508838753348" ID="ID_709180198" MODIFIED="1508839125326" POSITION="right" TEXT="Observer Pattern">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
 <node COLOR="#00b439" CREATED="1508838767527" ID="ID_890125898" MODIFIED="1508838770707" TEXT="subject">
