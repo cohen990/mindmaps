@@ -528,5 +528,42 @@
 <font NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
+<node COLOR="#0033ff" CREATED="1509362786648" ID="ID_745481070" MODIFIED="1509362789856" POSITION="right" TEXT="Design best practices">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1509362790215" ID="ID_1180777329" MODIFIED="1509362793966" TEXT="use rest">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1509362794213" ID="ID_1930290065" MODIFIED="1509362801211" TEXT="http status codes">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1509362801598" ID="ID_414761880" MODIFIED="1509362803768" TEXT="enough information">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1509362804009" ID="ID_376927855" MODIFIED="1509362805586" TEXT="never too much">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1509362806317" ID="ID_771223671" MODIFIED="1509362823722" TEXT="pagination">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1509362809416" ID="ID_1355897635" MODIFIED="1509362814029" TEXT="add metadata ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1509362818991" ID="ID_460286203" MODIFIED="1509362862831" TEXT="same resource">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1509362823718" ID="ID_1711502668" MODIFIED="1509362867924" TEXT="summary of each item">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1509362868191" ID="ID_470436498" MODIFIED="1509362872160" TEXT="link for full details"/>
+</node>
+<node COLOR="#990000" CREATED="1509362877502" ID="ID_20634716" MODIFIED="1509362879414" TEXT="hypertext">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1509362883030" ID="ID_1667335290" MODIFIED="1509362883965" TEXT="next"/>
+<node COLOR="#111111" CREATED="1509362884197" ID="ID_391859055" MODIFIED="1509362884671" TEXT="prev"/>
+</node>
+</node>
+</node>
 </node>
 </map>
