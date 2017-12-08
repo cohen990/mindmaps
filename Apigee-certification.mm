@@ -261,60 +261,109 @@
 <node COLOR="#0033ff" CREATED="1512558480940" ID="ID_604605696" MODIFIED="1512559536182" POSITION="right" TEXT="Flows &amp; Endpoints">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512558776158" ID="ID_156620815" MODIFIED="1512559536182" TEXT="What is the difference between a ProxyEndpoint and a TargetEndpoiont?">
+<node COLOR="#00b439" CREATED="1512558776158" ID="ID_156620815" MODIFIED="1512745423852" TEXT="What is the difference between a ProxyEndpoint and a TargetEndpoiont?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745401965" ID="ID_1976861901" MODIFIED="1512745405000" TEXT="proxy endpoint">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512745407783" ID="ID_1683876129" MODIFIED="1512745413800" TEXT="mediates between the user and the proxy"/>
 </node>
-<node COLOR="#00b439" CREATED="1512558986256" ID="ID_209272369" MODIFIED="1512559536182" TEXT="What is a conditional flow for?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745405246" ID="ID_1664932861" MODIFIED="1512745407212" TEXT="target endpoint">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512745414627" ID="ID_434774233" MODIFIED="1512745420936" TEXT="mediates between the proxy and the back end service"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559014081" ID="ID_223071040" MODIFIED="1512559536182" TEXT="What is the special PostClientFlow for?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559030669" ID="ID_237841083" MODIFIED="1512559536182" TEXT="How can you call a shared flow?">
+<node COLOR="#00b439" CREATED="1512558986256" ID="ID_209272369" MODIFIED="1512745483347" TEXT="What is a conditional flow for?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745426501" ID="ID_1802709186" MODIFIED="1512745478616" TEXT="Used to apply policies only when specific criteria are met">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559039631" ID="ID_1385293643" MODIFIED="1512559536182" TEXT="How do flow hooks work?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559046206" ID="ID_1203040041" MODIFIED="1512559536182" TEXT="How do you handle faults?">
+<node COLOR="#00b439" CREATED="1512559014081" ID="ID_223071040" MODIFIED="1512745518339" TEXT="What is the special PostClientFlow for?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745487568" ID="ID_1460515080" MODIFIED="1512745511374" TEXT="Used for policies that take place after a request has been completely handled and the result returned">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512745511689" ID="ID_146810293" MODIFIED="1512745515695" TEXT="e.g. logging">
+<font NAME="SansSerif" SIZE="12"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559054907" ID="ID_1955656478" MODIFIED="1512559536182" TEXT="In what order are fault rules evaluated?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559081926" ID="ID_365126561" MODIFIED="1512559536182" TEXT="What does a RouteRule do?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559090709" ID="ID_1545288585" MODIFIED="1512559536182" TEXT="In what order are RouteRules evaluated?">
+<node COLOR="#00b439" CREATED="1512559030669" ID="ID_237841083" MODIFIED="1512745534037" TEXT="How can you call a shared flow?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745528444" ID="ID_1055741065" MODIFIED="1512745531931" TEXT="with a flow callout policy">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512559100772" ID="ID_1098631862" MODIFIED="1512559536182" TEXT="What is a Target Server for?">
+<node COLOR="#990000" CREATED="1512745601421" ID="ID_189282370" MODIFIED="1512745603406" TEXT="with a flow hook">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559039631" ID="ID_1385293643" MODIFIED="1512745662307" TEXT="How do flow hooks work?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745545366" ID="ID_1344160861" MODIFIED="1512745657545" TEXT="they ensure that all APIs in a given environment will call out to a given shared flow">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559046206" ID="ID_1203040041" MODIFIED="1512745869596" TEXT="How do you handle faults?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512745844445" ID="ID_523449291" MODIFIED="1512745884611" TEXT="using Fault Rules">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559054907" ID="ID_1955656478" MODIFIED="1512746147923" TEXT="In what order are fault rules evaluated?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512746093471" ID="ID_1652725997" MODIFIED="1512746105621" TEXT="proxy endpoint">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512746135842" ID="ID_1060401915" MODIFIED="1512746138370" TEXT="bottom up"/>
+</node>
+<node COLOR="#990000" CREATED="1512746038589" ID="ID_1264464508" MODIFIED="1512746107999" TEXT="target endpoint">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512746139475" ID="ID_1753563587" MODIFIED="1512746141387" TEXT="top down"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559081926" ID="ID_365126561" MODIFIED="1512746269895" TEXT="What does a RouteRule do?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512746234468" ID="ID_802844184" MODIFIED="1512746258750" TEXT="routes between different target endpoints">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512746259229" ID="ID_525263586" MODIFIED="1512746261662" TEXT="set conditionally">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559090709" ID="ID_1545288585" MODIFIED="1512746296889" TEXT="In what order are RouteRules evaluated?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512746293837" ID="ID_136967210" MODIFIED="1512746295138" TEXT="top down">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512559100772" ID="ID_1098631862" MODIFIED="1512747614265" TEXT="What is a Target Server for?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512747568182" ID="ID_1274847729" MODIFIED="1512747576400" TEXT="For referring to a backend server by name rather than url">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512747576636" ID="ID_1288119591" MODIFIED="1512747583705" TEXT="useful if your proxy is deployed in many environments">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512747603430" ID="ID_1941860810" MODIFIED="1512747612490" TEXT="let&apos;s you configure the backend server URL per environment">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512559107789" ID="ID_1072344013" MODIFIED="1512559536182" TEXT="What is a Virtual Server?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512747650766" ID="ID_1329325967" MODIFIED="1512747659606" TEXT="Is it the same as a virtual host">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512559116461" ID="ID_668486197" MODIFIED="1512559536182" TEXT="What can you configure on a Virtual Server?">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -325,20 +374,32 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512747744132" ID="ID_1656260571" MODIFIED="1512747748265" TEXT="you get a 404?">
+<font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="help"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1512558526345" ID="ID_611954270" MODIFIED="1512559536176" POSITION="right" TEXT="Miscellaneous">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512572773343" ID="ID_693268358" MODIFIED="1512572778021" TEXT="What is SmartDocs used for?">
+<node COLOR="#00b439" CREATED="1512572773343" ID="ID_693268358" MODIFIED="1512745387276" TEXT="What is SmartDocs used for?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745364478" ID="ID_891161620" MODIFIED="1512745366117" TEXT="documentation">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512745366871" ID="ID_1460093521" MODIFIED="1512745368180" TEXT="obviously"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572778747" ID="ID_402221285" MODIFIED="1512572788842" TEXT="How do you convert a JSON object to a string in JavaScript?">
+<node COLOR="#990000" CREATED="1512745382488" ID="ID_1028658077" MODIFIED="1512745384764" TEXT="rich and interactive">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572778747" ID="ID_402221285" MODIFIED="1512745264309" TEXT="How do you convert a JSON object to a string in JavaScript?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745248502" ID="ID_1044962580" MODIFIED="1512745254239" TEXT="JSON.stringify()">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1512558502651" ID="ID_1306118180" MODIFIED="1512559536176" POSITION="right" TEXT="Node.js">
@@ -412,11 +473,20 @@
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="idea"/>
 </node>
+<node COLOR="#990000" CREATED="1512745188754" ID="ID_255736971" MODIFIED="1512745188754" TEXT="">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512572585627" ID="ID_1098859752" MODIFIED="1512572599219" TEXT="When you create an HTTP server in a NodeJS target endpoint, what port will it listen on?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512745148075" ID="ID_856075880" MODIFIED="1512745150834" TEXT="maybe 9000?">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512745223691" ID="ID_1124385071" MODIFIED="1512745229262" TEXT="maybe whichever you define - it&apos;s express after all">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1512558506442" ID="ID_1875659737" MODIFIED="1512559536176" POSITION="right" TEXT="OAuth 2.0">
