@@ -121,8 +121,9 @@
 <node COLOR="#00b439" CREATED="1512558469311" ID="ID_914282428" MODIFIED="1512559536176" TEXT="Api Design">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512558577463" ID="ID_1716234342" MODIFIED="1512559536176" TEXT="ReST">
+<node COLOR="#990000" CREATED="1512558577463" ID="ID_1716234342" MODIFIED="1512642756965" TEXT="Read up on ReST">
 <font NAME="SansSerif" SIZE="14"/>
+<icon BUILTIN="yes"/>
 </node>
 <node COLOR="#990000" CREATED="1512558583534" ID="ID_933587567" MODIFIED="1512559536176" TEXT="What is Apigee&apos;s recommended versioning?">
 <font NAME="SansSerif" SIZE="14"/>
@@ -343,35 +344,65 @@
 <node COLOR="#0033ff" CREATED="1512558502651" ID="ID_1306118180" MODIFIED="1512559536176" POSITION="right" TEXT="Node.js">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512572502619" ID="ID_1810065285" MODIFIED="1512572510459" TEXT="What is Trireme?">
+<node COLOR="#00b439" CREATED="1512572502619" ID="ID_1810065285" MODIFIED="1512726142631" TEXT="What is Trireme?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512726130801" ID="ID_1290962212" MODIFIED="1512726139554" TEXT="embedded Node.js inside JVM">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572511151" ID="ID_302932750" MODIFIED="1512572517955" TEXT="What is Apigee-127?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572518658" ID="ID_1025167986" MODIFIED="1512572523369" TEXT="What is Volos?">
+<node COLOR="#00b439" CREATED="1512572511151" ID="ID_302932750" MODIFIED="1512726214395" TEXT="What is Apigee-127?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512726175635" ID="ID_1168205025" MODIFIED="1512726177287" TEXT="toolkit">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572524079" ID="ID_1606050167" MODIFIED="1512572529937" TEXT="What is apigee-access?">
+<node COLOR="#990000" CREATED="1512726177569" ID="ID_1032589216" MODIFIED="1512726192687" TEXT="model and build rich, enterprise class APIs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512726198967" ID="ID_1442894967" MODIFIED="1512726211097" TEXT="Centred around Swagger 2.0">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572518658" ID="ID_1025167986" MODIFIED="1512736583919" TEXT="What is Volos?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512736570151" ID="ID_395830936" MODIFIED="1512736572969" TEXT="node.js library">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512736573257" ID="ID_948000303" MODIFIED="1512736581731" TEXT="for APIs">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572524079" ID="ID_1606050167" MODIFIED="1512736683012" TEXT="What is apigee-access?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512736595573" ID="ID_622942036" MODIFIED="1512736597374" TEXT="npm package">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512736597660" ID="ID_1336961111" MODIFIED="1512736631705" TEXT="access to apigee stuff">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512736632014" ID="ID_1176103314" MODIFIED="1512736633971" TEXT="flow variables"/>
+<node COLOR="#111111" CREATED="1512736634213" ID="ID_650649478" MODIFIED="1512736653837" TEXT="secure store (Vault)"/>
+<node COLOR="#111111" CREATED="1512736643023" ID="ID_24885711" MODIFIED="1512736661983" TEXT="built-in distributed cache"/>
+<node COLOR="#111111" CREATED="1512736665175" ID="ID_1607536240" MODIFIED="1512736670163" TEXT="built-in distributed quota service"/>
+<node COLOR="#111111" CREATED="1512736672903" ID="ID_1996269934" MODIFIED="1512736676391" TEXT="oauth service"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512572530278" ID="ID_1692752673" MODIFIED="1512572541070" TEXT="When should you use NodeJS as a target endpoint?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512744879183" ID="ID_434858427" MODIFIED="1512744892457" TEXT="when you have custom behaviour to add but don&apos;t want to build a full back end">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572541768" ID="ID_790795965" MODIFIED="1512572550976" TEXT="Can you use other languages as target endpoints?">
+</node>
+<node COLOR="#00b439" CREATED="1512572541768" ID="ID_790795965" MODIFIED="1512744674628" TEXT="Can you use other languages as target endpoints?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512744672500" ID="ID_1567065944" MODIFIED="1512744672820" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512572551648" ID="ID_1582878931" MODIFIED="1512572582016" TEXT="How would you access an external database from a NodeJS target endpoiont?">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -391,34 +422,77 @@
 <node COLOR="#0033ff" CREATED="1512558506442" ID="ID_1875659737" MODIFIED="1512559536176" POSITION="right" TEXT="OAuth 2.0">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512572604137" ID="ID_1473975341" MODIFIED="1512572612844" TEXT="What are the four different grant types?">
+<node COLOR="#00b439" CREATED="1512572604137" ID="ID_1473975341" MODIFIED="1512658112057" TEXT="What are the four different grant types usable in Apigee?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512645929931" ID="ID_905461327" MODIFIED="1512658427093" TEXT="authorisation_code">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512646147603" ID="ID_16570347" MODIFIED="1512646150995" TEXT="3 legged OAuth"/>
+<node COLOR="#111111" CREATED="1512646173419" ID="ID_920358684" MODIFIED="1512646207950" TEXT="user authenticated themself with resource server and gives the app consent to access their protected resources"/>
+<node COLOR="#111111" CREATED="1512725895035" ID="ID_733887738" MODIFIED="1512725930046" TEXT="For when an app wants access to a user&apos;s resources (facebook auth)"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572613517" ID="ID_1173962733" MODIFIED="1512572669751" TEXT="What are the different grant types appropriate? Consider:">
+<node COLOR="#990000" CREATED="1512645933418" ID="ID_201723064" MODIFIED="1512658169455" TEXT="client_credential">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512646237624" ID="ID_552963779" MODIFIED="1512658428035" TEXT="client ID / client secret provided"/>
+<node COLOR="#111111" CREATED="1512646247213" ID="ID_1599006609" MODIFIED="1512646250678" TEXT="return an access token"/>
+<node COLOR="#111111" CREATED="1512725913468" ID="ID_957321754" MODIFIED="1512725936954" TEXT="For when an app has it&apos;s own resources with the api (app uses google maps)"/>
+</node>
+<node COLOR="#990000" CREATED="1512645950515" ID="ID_171192996" MODIFIED="1512658237377" TEXT="implicit">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512647665226" ID="ID_520836712" MODIFIED="1512658203651" TEXT="returns auth token directly instead of first issuing an authorization code"/>
+<node COLOR="#111111" CREATED="1512647685068" ID="ID_1385108406" MODIFIED="1512647688596" TEXT="has security implications"/>
+<node COLOR="#111111" CREATED="1512725938732" ID="ID_5891804" MODIFIED="1512725950521" TEXT="not reccommended">
+<node COLOR="#111111" CREATED="1512725950522" ID="ID_72340115" MODIFIED="1512725959350" TEXT="should use client_credential without the secret"/>
+</node>
+<node COLOR="#111111" CREATED="1512725980427" ID="ID_795112731" MODIFIED="1512726011329" TEXT="For when the client cannot be trusted to securely handle user credentials or client secrets"/>
+</node>
+<node COLOR="#990000" CREATED="1512645953741" ID="ID_1914439351" MODIFIED="1512658232678" TEXT="password">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512647737373" ID="ID_1704872693" MODIFIED="1512647741559" TEXT="user provides password"/>
+<node COLOR="#111111" CREATED="1512647741831" ID="ID_1973846378" MODIFIED="1512658381340" TEXT="app provides access token"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572613517" ID="ID_1173962733" MODIFIED="1512649043937" TEXT="What are the different grant types appropriate? Consider:">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
-<node COLOR="#990000" CREATED="1512572634185" ID="ID_1967337898" MODIFIED="1512572647919" TEXT="Is the client trusted or not?">
+<node COLOR="#990000" CREATED="1512572634185" ID="ID_1967337898" MODIFIED="1512648974522" TEXT="Is the client trusted?">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512648986069" ID="ID_1151909037" MODIFIED="1512648991164" TEXT="client credential"/>
+</node>
+<node COLOR="#990000" CREATED="1512648974881" ID="ID_1723574643" MODIFIED="1512648978053" TEXT="Is the client not trusted?">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512648992247" ID="ID_1153657544" MODIFIED="1512726044982" TEXT="authorisation_code"/>
+</node>
+<node COLOR="#990000" CREATED="1512572648214" ID="ID_1989033185" MODIFIED="1512649004782" TEXT="Is the resource owned by a specific user?">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512648954691" ID="ID_722929418" MODIFIED="1512648960373" TEXT="authorisation_code"/>
+<node COLOR="#111111" CREATED="1512648960689" ID="ID_6447852" MODIFIED="1512648964178" TEXT="password credentials"/>
+</node>
+<node COLOR="#990000" CREATED="1512572656595" ID="ID_922736220" MODIFIED="1512649008705" TEXT="Is the client capable of holding a secret?">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512649008952" ID="ID_1819874144" MODIFIED="1512649022955" TEXT="client credential"/>
+</node>
+<node COLOR="#990000" CREATED="1512726055998" ID="ID_1927174740" MODIFIED="1512726064784" TEXT="Is the client not capable of holding a secret?">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512726065302" ID="ID_1950974479" MODIFIED="1512726074007" TEXT="client_credential minus the secret"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572671332" ID="ID_737854931" MODIFIED="1512643429714" TEXT="What is an access token?">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1512643284725" ID="ID_153216940" MODIFIED="1512643300495" TEXT="Used to authorize the token holder with a given app">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#990000" CREATED="1512572648214" ID="ID_1989033185" MODIFIED="1512572656224" TEXT="Is the resource owned by a specific user or not?">
-<font NAME="SansSerif" SIZE="14"/>
-</node>
-<node COLOR="#990000" CREATED="1512572656595" ID="ID_922736220" MODIFIED="1512572662851" TEXT="Is the client capable of holding a secret or not?">
+<node COLOR="#990000" CREATED="1512643403123" ID="ID_1126846163" MODIFIED="1512643427069" TEXT="Contains security credentials and identifies the user, the user&apos;s group and the user&apos;s priveleges">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512572671332" ID="ID_737854931" MODIFIED="1512572678201" TEXT="What is an access token?">
+<node COLOR="#00b439" CREATED="1512572678895" ID="ID_1559990639" MODIFIED="1512643283129" TEXT="What does a refresh token do?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512643271447" ID="ID_924350229" MODIFIED="1512643280615" TEXT="Used to obtain a renewed access token under the same credentials">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572678895" ID="ID_1559990639" MODIFIED="1512572684504" TEXT="What does a refresh token do?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 </node>
 </node>
 <node COLOR="#0033ff" CREATED="1512558487559" ID="ID_1511619012" MODIFIED="1512559536182" POSITION="right" TEXT="Policies">
@@ -427,24 +501,30 @@
 <node COLOR="#00b439" CREATED="1512585403361" ID="ID_1416723693" MODIFIED="1512585405514" TEXT="Throttlers">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512559148332" ID="ID_720382100" MODIFIED="1512585411960" TEXT="What is the difference betweeen a Quota and a Spike Arrest?">
+<node COLOR="#990000" CREATED="1512559148332" ID="ID_720382100" MODIFIED="1512642974836" TEXT="What is the difference betweeen a Quota and a Spike Arrest?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-<node COLOR="#111111" CREATED="1512585426284" ID="ID_22910626" MODIFIED="1512585430032" TEXT="Quota"/>
+<node COLOR="#111111" CREATED="1512585426284" ID="ID_22910626" MODIFIED="1512585430032" TEXT="Quota">
+<node COLOR="#111111" CREATED="1512642867669" ID="ID_1063969852" MODIFIED="1512642878101" TEXT="Restrict number of calls that can be made in a given time frame"/>
+<node COLOR="#111111" CREATED="1512642911369" ID="ID_1245601398" MODIFIED="1512642919565" TEXT="A quota won&apos;t prevent spikes"/>
+<node COLOR="#111111" CREATED="1512642919980" ID="ID_36276345" MODIFIED="1512642934068" TEXT="Allows malicious user to spike every time the quota is reset"/>
+</node>
 <node COLOR="#111111" CREATED="1512585430490" ID="ID_879212236" MODIFIED="1512585433308" TEXT="Spike Arrest">
 <node COLOR="#111111" CREATED="1512585435991" ID="ID_779476288" MODIFIED="1512585439694" TEXT="Protect against traffic spikes"/>
+<node COLOR="#111111" CREATED="1512642936623" ID="ID_965489836" MODIFIED="1512642969093" TEXT="Prevent a malicious user from DOSing your API"/>
 </node>
 </node>
-<node COLOR="#990000" CREATED="1512559169091" ID="ID_669666320" MODIFIED="1512585410240" TEXT="What are the use cases for Quota?">
+<node COLOR="#990000" CREATED="1512559169091" ID="ID_669666320" MODIFIED="1512643192410" TEXT="What are the use cases for Quota?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
+<node COLOR="#111111" CREATED="1512643158771" ID="ID_1175412634" MODIFIED="1512643165731" TEXT="Prevent an app from abusing your API"/>
+<node COLOR="#111111" CREATED="1512643166023" ID="ID_621641789" MODIFIED="1512643188764" TEXT="Prevent a user from monopolising your servers"/>
 </node>
-<node COLOR="#990000" CREATED="1512559184931" ID="ID_1830475626" MODIFIED="1512585408591" TEXT="What are the use cases for Spike Arrest?">
+<node COLOR="#990000" CREATED="1512559184931" ID="ID_1830475626" MODIFIED="1512643232179" TEXT="What are the use cases for Spike Arrest?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
+<node COLOR="#111111" CREATED="1512643194195" ID="ID_213597163" MODIFIED="1512643200515" TEXT="Prevent denial of service attacks"/>
+<node COLOR="#111111" CREATED="1512643206469" ID="ID_949688288" MODIFIED="1512643228067" TEXT="Prevent very heavy workloads that may cause your server to freeze up or crash"/>
 </node>
 <node COLOR="#990000" CREATED="1512559194084" ID="ID_227042641" MODIFIED="1512585407225" TEXT="What does Concurrent Rate Limit do?">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -473,7 +553,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512559248960" FOLDED="true" ID="ID_465353879" MODIFIED="1512585494366" TEXT="How can the credentials be injected into the Basic Authentication policy?">
+<node COLOR="#00b439" CREATED="1512559248960" ID="ID_465353879" MODIFIED="1512656955044" TEXT="How can the credentials be injected into the Basic Authentication policy?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1512585171674" ID="ID_1913156554" MODIFIED="1512585175060" TEXT="Key Value Store">
