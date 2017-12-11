@@ -279,26 +279,34 @@
 <node COLOR="#00b439" CREATED="1512558474303" ID="ID_335712759" MODIFIED="1512559536176" TEXT="Api Publishing">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512558645808" ID="ID_1929502057" MODIFIED="1512559536176" TEXT="What is an API product?">
+<node COLOR="#990000" CREATED="1512558645808" ID="ID_1929502057" MODIFIED="1512987115040" TEXT="What is an API product?">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
+<node COLOR="#111111" CREATED="1512987064340" ID="ID_1966518094" MODIFIED="1512987070067" TEXT="bundles resources">
+<node COLOR="#111111" CREATED="1512987070295" ID="ID_1878633564" MODIFIED="1512987074690" TEXT="API Proxies"/>
+<node COLOR="#111111" CREATED="1512987074925" ID="ID_1444254017" MODIFIED="1512987086646" TEXT="access limits"/>
+<node COLOR="#111111" CREATED="1512987090064" ID="ID_883921118" MODIFIED="1512987092637" TEXT="API key approval method"/>
+<node COLOR="#111111" CREATED="1512987098404" ID="ID_849996206" MODIFIED="1512987111908" TEXT="other configuration that affects all the bundled proxies"/>
 </node>
-<node COLOR="#990000" CREATED="1512558694669" ID="ID_985708436" MODIFIED="1512559536176" TEXT="How does it differ from an API package?">
+</node>
+<node COLOR="#990000" CREATED="1512558694669" ID="ID_985708436" MODIFIED="1512987167361" TEXT="What is an API package?">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
+<node COLOR="#111111" CREATED="1512987144814" ID="ID_1981809518" MODIFIED="1512987148713" TEXT="A bundle of API products"/>
+<node COLOR="#111111" CREATED="1512987155583" ID="ID_1194889591" MODIFIED="1512987160142" TEXT="Sits under monetization plans"/>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1512558478250" ID="ID_453037849" MODIFIED="1512559536176" TEXT="OpenApi">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<node COLOR="#990000" CREATED="1512558704437" ID="ID_1599605931" MODIFIED="1512559536175" TEXT="What markup languages are used for Swagger 2.0 definitions?">
+<node COLOR="#990000" CREATED="1512558704437" ID="ID_1599605931" MODIFIED="1512987328563" TEXT="What markup languages are used for Swagger 2.0 definitions?">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
+<node COLOR="#111111" CREATED="1512987237074" ID="ID_544697398" MODIFIED="1512987242094" TEXT="yaml"/>
 </node>
-<node COLOR="#990000" CREATED="1512558716450" ID="ID_566850727" MODIFIED="1512559536175" TEXT="What does a line like this in a swagger definition file mean?">
+<node COLOR="#990000" CREATED="1512558716450" ID="ID_566850727" MODIFIED="1512987375021" TEXT="What does a line like this in a swagger definition file mean?">
 <font NAME="SansSerif" SIZE="14"/>
-<icon BUILTIN="help"/>
-<node COLOR="#111111" CREATED="1512558732856" ID="ID_1247244033" MODIFIED="1512559536175" TEXT="$ref: &apos;#/components/schemas/User&apos;"/>
+<node COLOR="#111111" CREATED="1512558732856" ID="ID_1247244033" MODIFIED="1512559536175" TEXT="$ref: &apos;#/components/schemas/User&apos;">
+<node COLOR="#111111" CREATED="1512987356615" ID="ID_1955266601" MODIFIED="1512987364925" TEXT="Pull in an external yaml configuration file"/>
+<node COLOR="#111111" CREATED="1512987365604" ID="ID_1412610414" MODIFIED="1512987372448" TEXT="used for organising large swagger definitions"/>
+</node>
 </node>
 </node>
 </node>
