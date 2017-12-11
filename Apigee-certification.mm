@@ -1,22 +1,97 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1512558361177" ID="ID_791074061" MODIFIED="1512559613357" TEXT="Apigee">
+<node COLOR="#000000" CREATED="1512558361177" ID="ID_791074061" MODIFIED="1512985761646">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: center">
+      Apigee
+    </p>
+    <p style="text-align: center">
+      <b>?</b>&#160;- <i>Needs answering</i>
+    </p>
+    <p style="text-align: center">
+      <b>!</b>&#160;- Task<br />Light bulb - Hint
+    </p>
+  </body>
+</html>
+</richcontent>
 <font NAME="SansSerif" SIZE="20"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties"/>
 <node COLOR="#0033ff" CREATED="1512558500905" ID="ID_757266099" MODIFIED="1512559536176" POSITION="left" TEXT="Analytics">
 <edge STYLE="sharp_bezier" WIDTH="8"/>
 <font NAME="SansSerif" SIZE="18"/>
-<node COLOR="#00b439" CREATED="1512572463548" ID="ID_1046774454" MODIFIED="1512572481886" TEXT="What are the different analytics dashboards available? (What metrics can be visualized?)">
+<node COLOR="#00b439" CREATED="1512572463548" ID="ID_1046774454" MODIFIED="1512984206014" TEXT="What are the different analytics dashboards available? (What metrics can be visualized?)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512756410723" ID="ID_835907014" MODIFIED="1512756416784" TEXT="Api proxy performance">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572483572" ID="ID_646440420" MODIFIED="1512572490023" TEXT="What metrics are captured out of the box?">
+<node COLOR="#990000" CREATED="1512756417019" ID="ID_1333795134" MODIFIED="1512756421885" TEXT="Cache performance">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756426342" ID="ID_584068113" MODIFIED="1512756428796" TEXT="Developer engagement">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756431548" ID="ID_1318647315" MODIFIED="1512756432954" TEXT="Devices">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756435502" ID="ID_59984373" MODIFIED="1512756438376" TEXT="Error code analysis">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756438633" ID="ID_1371389086" MODIFIED="1512756440097" TEXT="Geomap">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572483572" ID="ID_646440420" MODIFIED="1512756363180" TEXT="What metrics are captured out of the box?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512756217634" ID="ID_318276320" MODIFIED="1512756224000" TEXT="Average transactions per second">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572490776" ID="ID_1403632784" MODIFIED="1512572498376" TEXT="ow can I create a report with custom metrics?">
+<node COLOR="#990000" CREATED="1512756224238" ID="ID_1649478755" MODIFIED="1512756229576" TEXT="Cache hit">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756233189" ID="ID_1072451347" MODIFIED="1512756236648" TEXT="L1 cache elements out">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756240625" ID="ID_864590506" MODIFIED="1512756248351" TEXT="Policy errors">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756286724" ID="ID_1053280747" MODIFIED="1512756289443" TEXT="Proxy errors">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756307858" ID="ID_1572191506" MODIFIED="1512756312247" TEXT="Request processing latency">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756315417" ID="ID_226971505" MODIFIED="1512756317418" TEXT="Request size">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756320569" ID="ID_415772109" MODIFIED="1512756324024" TEXT="Response cache executed">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756327969" ID="ID_1054621891" MODIFIED="1512756331136" TEXT="Response processing latency">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756335081" ID="ID_839653152" MODIFIED="1512756337626" TEXT="Response size">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756341166" ID="ID_730369359" MODIFIED="1512756342965" TEXT="Target errors">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756346071" ID="ID_1261446460" MODIFIED="1512756348311" TEXT="Target response time">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756351491" ID="ID_1078228718" MODIFIED="1512756353716" TEXT="Total response time">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512756357046" ID="ID_1872439611" MODIFIED="1512756360385" TEXT="Traffic">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572490776" ID="ID_1403632784" MODIFIED="1512756393766" TEXT="How can I create a report with custom metrics?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
@@ -29,85 +104,147 @@
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512756694536" ID="ID_1965125569" MODIFIED="1512756706800" TEXT="As a target endpoint">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572810200" ID="ID_1914598674" MODIFIED="1512572820007" TEXT="What OAuth grant types are supported by API BaaS?">
+</node>
+<node COLOR="#00b439" CREATED="1512572810200" ID="ID_1914598674" MODIFIED="1512756772640" TEXT="What OAuth grant types are supported by API BaaS?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512756740401" ID="ID_822261538" MODIFIED="1512756742986" TEXT="password authentication">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572820727" ID="ID_1394855002" MODIFIED="1512572831374" TEXT="What OAuth grant types are supported by API BaaS?">
+</node>
+<node COLOR="#00b439" CREATED="1512572832103" ID="ID_267533742" MODIFIED="1512757024701" TEXT="How is the data store structured? (i.e. entities, applications, organisations, collections)">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512756820888" ID="ID_1293164320" MODIFIED="1512756833895" TEXT="Organisation has one or more applications">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572832103" ID="ID_267533742" MODIFIED="1512572853809" TEXT="How is the data store structured? (i.e. entities, applications, organisations, collections)">
+<node COLOR="#990000" CREATED="1512756834135" ID="ID_257963653" MODIFIED="1512756888525" TEXT="An application is an instance of application data associated with an app">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512756889532" ID="ID_1075937235" MODIFIED="1512756891215" TEXT="per environment"/>
+</node>
+<node COLOR="#990000" CREATED="1512756910321" ID="ID_1105850104" MODIFIED="1512756930280" TEXT="Collections contain one or more data entities">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512756936186" ID="ID_776625566" MODIFIED="1512756954258" TEXT="created automatically for every entity"/>
+<node COLOR="#111111" CREATED="1512756954567" ID="ID_1494047422" MODIFIED="1512984310100" TEXT="named automatically as the plural of the type of the entity"/>
+<node COLOR="#111111" CREATED="1512756968134" ID="ID_1520846328" MODIFIED="1512756981768" TEXT="an entity can belong to only one collection"/>
+</node>
+<node COLOR="#990000" CREATED="1512756990913" ID="ID_90421742" MODIFIED="1512757004083" TEXT="An entity is a basic JSON formatted data object">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572885575" ID="ID_1635473658" MODIFIED="1512757130238" TEXT="How can you partially update an entity?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
-</node>
-<node COLOR="#00b439" CREATED="1512572885575" ID="ID_1635473658" MODIFIED="1512572910470" TEXT="How can you partially update an entity?">
-<edge STYLE="bezier" WIDTH="thin"/>
-<font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
 <node COLOR="#990000" CREATED="1512572896936" ID="ID_413351744" MODIFIED="1512572908000" TEXT="Hint: Ignore what RFC5789 says)">
 <font NAME="SansSerif" SIZE="14"/>
 <icon BUILTIN="idea"/>
+</node>
+<node COLOR="#990000" CREATED="1512757096496" ID="ID_58128836" MODIFIED="1512757099250" TEXT="a PUT request">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512757100037" ID="ID_1368221961" MODIFIED="1512757159376" TEXT="curl -X PUT https://&lt;baas_host_name&gt;/&lt;org&gt;/&lt;app&gt;/&lt;collection&gt;/&lt;entity&gt; -d {&quot;property_1&quot;:&quot;value_1&quot;, &quot;property_2&quot;:&quot;value_2&quot;,...}">
+<font NAME="SansSerif" SIZE="12"/>
+</node>
 </node>
 </node>
 <node COLOR="#00b439" CREATED="1512572918957" ID="ID_1073080620" MODIFIED="1512572925360" TEXT="What are default entity properties?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512757209303" ID="ID_1511546313" MODIFIED="1512757261714" TEXT="UUID">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572925655" ID="ID_1573597008" MODIFIED="1512572935817" TEXT="Are all entities in a collection of the same type?">
+<node COLOR="#990000" CREATED="1512757261929" ID="ID_1047442276" MODIFIED="1512757262613" TEXT="name">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1512983884519" ID="ID_390195966" MODIFIED="1512983885675" TEXT="type">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512572925655" ID="ID_1573597008" MODIFIED="1512757300220" TEXT="Are all entities in a collection of the same type?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512757297721" ID="ID_1299540001" MODIFIED="1512757298394" TEXT="yes">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572936579" ID="ID_1133539701" MODIFIED="1512572950646" TEXT="Must all entities in a collection have the same fields/properties?">
+</node>
+<node COLOR="#00b439" CREATED="1512572936579" ID="ID_1133539701" MODIFIED="1512983876751" TEXT="Must all entities in a collection have the same fields/properties?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512983869536" ID="ID_187446596" MODIFIED="1512983870658" TEXT="no">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572952604" ID="ID_1849943246" MODIFIED="1512572971530" TEXT="How do you query an entity in API BaaS?">
+</node>
+<node COLOR="#00b439" CREATED="1512572952604" ID="ID_1849943246" MODIFIED="1512984851756" TEXT="How do you query an entity in API BaaS?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512758910243" ID="ID_1955213880" MODIFIED="1512984567551" TEXT="query with ReSTful syntax">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512984567973" ID="ID_1349574724" MODIFIED="1512984869386" TEXT="https://&lt;baas_host_name&gt;/&lt;organisation&gt;/&lt;app&gt;/&lt;collection&gt;?ql=&lt;query statement&gt;"/>
 </node>
-<node COLOR="#00b439" CREATED="1512572972287" ID="ID_1926544224" MODIFIED="1512572995636" TEXT="How can you create a connection between two entities in API BaaS?">
+</node>
+<node COLOR="#00b439" CREATED="1512572972287" ID="ID_1926544224" MODIFIED="1512985022943" TEXT="How can you create a connection between two entities in API BaaS?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512984940169" ID="ID_630718793" MODIFIED="1512984950782" TEXT="create a property on an entity e.g. followedBy">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512984954218" ID="ID_1735043658" MODIFIED="1512984955094" TEXT="GET /users/jennie/followedBy "/>
 </node>
-<node COLOR="#00b439" CREATED="1512573001534" ID="ID_715027870" MODIFIED="1512573016774" TEXT="What is the default page size when retrieving a collection in API BaaS?">
+<node COLOR="#990000" CREATED="1512984959039" ID="ID_1322493930" MODIFIED="1512984974884" TEXT="add entities from a collection to this property">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512984966545" ID="ID_1702196106" MODIFIED="1512984967852" TEXT="POST /users/jennie/followedBy/users/gladys "/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512573001534" ID="ID_715027870" MODIFIED="1512985029235" TEXT="What is the default page size when retrieving a collection in API BaaS?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985025432" ID="ID_1751476475" MODIFIED="1512985025951" TEXT="10">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512573017493" ID="ID_1900235831" MODIFIED="1512573046563" TEXT="What query parameters are may be used to select the page and change the number of entities per page?">
+</node>
+<node COLOR="#00b439" CREATED="1512573017493" ID="ID_1900235831" MODIFIED="1512985557869" TEXT="What query parameters may be used to select the page and change the number of entities per page?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985045070" ID="ID_1048142418" MODIFIED="1512985047861" TEXT="Select the page">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512985066646" ID="ID_501358327" MODIFIED="1512985068111" TEXT="cursor"/>
 </node>
-<node COLOR="#00b439" CREATED="1512573052614" ID="ID_357978574" MODIFIED="1512573058099" TEXT="How can you order the traits?">
+<node COLOR="#990000" CREATED="1512985048219" ID="ID_1524530265" MODIFIED="1512985053040" TEXT="Change the number of entities per page">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512985069294" ID="ID_16953657" MODIFIED="1512985075853" TEXT="LIMIT"/>
+</node>
+</node>
+<node COLOR="#00b439" CREATED="1512573052614" ID="ID_357978574" MODIFIED="1512985308866" TEXT="How can you order the results?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985291417" ID="ID_601536503" MODIFIED="1512985302443" TEXT="order by &lt;&gt;">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1512985302906" ID="ID_1942172085" MODIFIED="1512985304362" TEXT="asc"/>
+<node COLOR="#111111" CREATED="1512985304566" ID="ID_542758648" MODIFIED="1512985305493" TEXT="desc"/>
 </node>
-<node COLOR="#00b439" CREATED="1512573058780" ID="ID_1482781407" MODIFIED="1512573071010" TEXT="How do you store location information in an entity?">
+</node>
+<node COLOR="#00b439" CREATED="1512573058780" ID="ID_1482781407" MODIFIED="1512985456263" TEXT="How do you store location information in an entity?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985412113" ID="ID_1307739406" MODIFIED="1512985450967" TEXT="&quot;location&quot;: {&#xa;    &quot;latitude&quot;: &lt;latitude_coordinate&gt;,&#xa;    &quot;longitude&quot;: &lt;longitude_coordinate&gt;&#xa;}">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512573098650" ID="ID_221366038" MODIFIED="1512573122828" TEXT="How can you query entities by proximity to a specific location?">
+</node>
+<node COLOR="#00b439" CREATED="1512573098650" ID="ID_221366038" MODIFIED="1512985468604" TEXT="How can you query entities by proximity to a specific location?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985580398" ID="ID_885274602" MODIFIED="1512985583796" TEXT="location within &lt;distance_in_meters&gt; of &lt;latitude&gt;, &lt;longitude&gt;">
+<font NAME="SansSerif" SIZE="14"/>
 </node>
-<node COLOR="#00b439" CREATED="1512573128464" ID="ID_957046367" MODIFIED="1512573139740" TEXT="How do you retrieve an asset associated with an entity?">
+</node>
+<node COLOR="#00b439" CREATED="1512573128464" ID="ID_957046367" MODIFIED="1512985694517" TEXT="How do you retrieve an asset associated with an entity?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
-<icon BUILTIN="help"/>
+<node COLOR="#990000" CREATED="1512985687546" ID="ID_388539414" MODIFIED="1512985688538" TEXT="curl -X GET -H &apos;Accept: &lt;content_type&gt;&apos; &apos;https://&lt;baas_host_name&gt;/&lt;org&gt;/&lt;app&gt;/&lt;collection&gt;/&lt;entity&gt; ">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
 </node>
 <node COLOR="#00b439" CREATED="1512573140448" ID="ID_1485969460" MODIFIED="1512573154411" TEXT="What are the recommended practices for deploying API BaaS?">
 <edge STYLE="bezier" WIDTH="thin"/>
@@ -557,7 +694,7 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node COLOR="#00b439" CREATED="1512572678895" ID="ID_1559990639" MODIFIED="1512643283129" TEXT="What does a refresh token do?">
+<node COLOR="#00b439" CREATED="1512572678895" FOLDED="true" ID="ID_1559990639" MODIFIED="1512984010565" TEXT="What does a refresh token do?">
 <edge STYLE="bezier" WIDTH="thin"/>
 <font NAME="SansSerif" SIZE="16"/>
 <node COLOR="#990000" CREATED="1512643271447" ID="ID_924350229" MODIFIED="1512643280615" TEXT="Used to obtain a renewed access token under the same credentials">
