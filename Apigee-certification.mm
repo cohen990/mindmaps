@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1512558361177" ID="ID_791074061" MODIFIED="1512985761646">
+<node COLOR="#000000" CREATED="1512558361177" ID="ID_791074061" MODIFIED="1512985893293">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -13,7 +13,7 @@
       <b>?</b>&#160;- <i>Needs answering</i>
     </p>
     <p style="text-align: center">
-      <b>!</b>&#160;- Task<br />Light bulb - Hint
+      <b>!</b>&#160;- <i>Task</i><br /><b>Light Bulb</b>&#160;- <i>Hint</i>
     </p>
   </body>
 </html>
