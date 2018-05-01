@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node COLOR="#000000" CREATED="1525103219501" ID="ID_1583983818" MODIFIED="1525122984885" TEXT="Tetris From Nothing">
+<node COLOR="#000000" CREATED="1525103219501" ID="ID_1583983818" MODIFIED="1525164074432" TEXT="Tetris From Nothing">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -189,6 +189,10 @@
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
+</node>
+<node COLOR="#0033ff" CREATED="1525108263975" ID="ID_1295760034" MODIFIED="1525108277184" POSITION="right" TEXT="A flipbook on the corners from any game that lasts that may turns">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
 </node>
 </node>
 </map>
